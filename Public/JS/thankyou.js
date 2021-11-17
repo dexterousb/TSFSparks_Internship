@@ -1,6 +1,6 @@
-const heading = document.querySelector(".heading");
-const discription = document.querySelector(".discription");
-const payButton = document.querySelector(".payment");
+const heading = document.querySelector(".payment-success");
+const discription = document.querySelector(".payment-discription");
+const redirect = document.querySelector(".redirecting");
 const container = document.querySelector(".form");
 const timeline = new TimelineMax({ delay: 0.2 });
 
@@ -12,5 +12,9 @@ window.onload = () => {
     }
     timeline.fromTo(heading, 0.5, { y: -50, opacity: 0 }, { y: 0, opacity: 1 });
     timeline.fromTo(discription, 0.5, { opacity: 0 }, { opacity: 1 });
-    timeline.fromTo(payButton, 0.5, { opacity: 0 }, { opacity: 1 });
+    timeline.fromTo(redirect, 0.5, { opacity: 0 }, { opacity: 1 }, 2);
+
+    setInterval(function() {
+        window.location.replace("index.html")
+    }, 8000)
 }
