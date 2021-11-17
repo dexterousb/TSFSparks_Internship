@@ -1,0 +1,141 @@
+[debug] [2021-11-13T18:23:20.478Z] ----------------------------------------------------------------------
+[debug] [2021-11-13T18:23:20.481Z] Command:       /Users/balvindersingh/.nvm/versions/node/v16.10.0/bin/node /Users/balvindersingh/.nvm/versions/node/v16.10.0/bin/firebase init
+[debug] [2021-11-13T18:23:20.481Z] CLI Version:   9.22.0
+[debug] [2021-11-13T18:23:20.481Z] Platform:      darwin
+[debug] [2021-11-13T18:23:20.481Z] Node Version:  v16.10.0
+[debug] [2021-11-13T18:23:20.483Z] Time:          Sat Nov 13 2021 23:53:20 GMT+0530 (India Standard Time)
+[debug] [2021-11-13T18:23:20.483Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-13T18:23:20.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-13T18:23:20.552Z] > authorizing via signed-in user (balvinder.loothra@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/balvindersingh/Downloads/Donation-Website-main-2
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using sparksfoundationproject. 
+[debug] [2021-11-13T18:23:34.689Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject [none]
+[debug] [2021-11-13T18:23:35.173Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject 403
+[debug] [2021-11-13T18:23:35.173Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-13T18:23:35.174Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-13T18:23:35.404Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/init/features/project.js:77:27)
+    at async init (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project sparksfoundationproject. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-11-13T18:24:12.220Z] ----------------------------------------------------------------------
+[debug] [2021-11-13T18:24:12.222Z] Command:       /Users/balvindersingh/.nvm/versions/node/v16.10.0/bin/node /Users/balvindersingh/.nvm/versions/node/v16.10.0/bin/firebase init
+[debug] [2021-11-13T18:24:12.223Z] CLI Version:   9.22.0
+[debug] [2021-11-13T18:24:12.223Z] Platform:      darwin
+[debug] [2021-11-13T18:24:12.223Z] Node Version:  v16.10.0
+[debug] [2021-11-13T18:24:12.225Z] Time:          Sat Nov 13 2021 23:54:12 GMT+0530 (India Standard Time)
+[debug] [2021-11-13T18:24:12.226Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-13T18:24:12.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-13T18:24:12.297Z] > authorizing via signed-in user (balvinder.loothra@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/balvindersingh/Downloads/Donation-Website-main-2
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using sparksfoundationproject. 
+[debug] [2021-11-13T18:25:11.177Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject [none]
+[debug] [2021-11-13T18:25:11.670Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject 403
+[debug] [2021-11-13T18:25:11.671Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-13T18:25:11.671Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-13T18:25:11.906Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/init/features/project.js:77:27)
+    at async init (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project sparksfoundationproject. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-11-13T18:29:24.374Z] ----------------------------------------------------------------------
+[debug] [2021-11-13T18:29:24.376Z] Command:       /Users/balvindersingh/.nvm/versions/node/v16.10.0/bin/node /Users/balvindersingh/.nvm/versions/node/v16.10.0/bin/firebase init
+[debug] [2021-11-13T18:29:24.376Z] CLI Version:   9.22.0
+[debug] [2021-11-13T18:29:24.376Z] Platform:      darwin
+[debug] [2021-11-13T18:29:24.376Z] Node Version:  v16.10.0
+[debug] [2021-11-13T18:29:24.378Z] Time:          Sat Nov 13 2021 23:59:24 GMT+0530 (India Standard Time)
+[debug] [2021-11-13T18:29:24.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-13T18:29:24.451Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-13T18:29:24.451Z] > authorizing via signed-in user (balvinder.loothra@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/balvindersingh/Downloads/Donation-Website-main-2
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using sparksfoundationproject. 
+[debug] [2021-11-13T18:29:39.238Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject [none]
+[debug] [2021-11-13T18:29:39.772Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject 403
+[debug] [2021-11-13T18:29:39.772Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sparksfoundationproject {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-13T18:29:39.773Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-13T18:29:39.941Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/init/features/project.js:77:27)
+    at async init (/Users/balvindersingh/.nvm/versions/node/v16.10.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project sparksfoundationproject. Please make sure the project exists and your account has permission to access it.
